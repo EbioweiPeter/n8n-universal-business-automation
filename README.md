@@ -1,6 +1,67 @@
 # Universal Business CRM & Alert Automation
 
-An n8n automation project designed to streamline customer enquiry management, business classification, lead prioritization, follow-up tracking and operational monitoring.
+![n8n](https://img.shields.io/badge/n8n-Workflow_Automation-EA4B71)
+![JavaScript](https://img.shields.io/badge/JavaScript-Business_Logic-F7DF1E)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-CRM-34A853)
+![Status](https://img.shields.io/badge/Status-Portfolio_Demonstration-blue)
+
+A modular business automation system built with n8n to streamline customer enquiry processing, CRM management, lead prioritization, follow-up scheduling and operational monitoring.
+
+Developed by **Ebiowei Peter** as an independent portfolio project demonstrating practical workflow automation, system integration and reliability testing.
+
+## Explore the Project
+
+- [Professional Project Case Study](docs/case-study.md)
+- [System Architecture](docs/architecture.md)
+- [Testing and Validation Report](tests/test-report.md)
+- [Workflow Screenshots](#workflow-screenshots)
+- [Download Sanitized Workflow](workflow/universal-business-crm-sanitized.json)
+
+## Project at a Glance
+
+| Metric | Verified Result |
+|---|---:|
+| Development workflow nodes | 98 |
+| Connection entries | 75 |
+| Baseline CRM records | 5 |
+| Persistent alert history records | 3 |
+| Day 25 edge-case tests | 5/5 passed |
+| Broken connection references | 0 |
+| Unauthorized CRM writes during final audit | 0 |
+| Notifications sent during final audit | 0 |
+
+These results were obtained using controlled development datasets, not live client operations.
+
+## Project Overview
+
+Businesses that manage customer enquiries manually can experience duplicate records, missed follow-ups, inconsistent customer information and delayed responses.
+
+This project demonstrates how n8n can automate customer data processing, business classification, lead management and operational reporting while introducing validation, duplicate protection, audit trails and controlled update mechanisms.
+
+## Intended Business Value
+
+- Reduce repetitive administrative work.
+- Improve customer data consistency.
+- Identify high-priority enquiries.
+- Organize customer follow-up activities.
+- Route enquiries to appropriate teams.
+- Improve visibility into operational failures.
+- Reduce the risk of duplicate event processing.
+
+These are intended benefits, not measured production outcomes.
+
+## Project Preview
+
+### CRM Integration and Duplicate Prevention
+
+![CRM Integration](screenshots/02-crm-integration.png)
+
+### Operational Monitoring and Reporting
+
+![Operational Dashboard](screenshots/06-dashboard-report.png)
+
+> **Deployment status:** This project is a tested development demonstration. Production deployment requires additional integration testing, configuration and security review.
+
 
 ## Project Overview
 
@@ -319,6 +380,7 @@ The project contains connected automation modules and standalone development and
 
 ## Additional Project Documentation
 
+- [Professional Project Case Study](docs/case-study.md)
 - [System Architecture](docs/architecture.md)
 - [Testing and Validation Report](tests/test-report.md)
 - [Sanitized n8n Workflow](workflow/universal-business-crm-sanitized.json)
